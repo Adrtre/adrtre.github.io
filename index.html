@@ -37,7 +37,8 @@
   </main>
 
   <div class="template" data-datatable-row-template>
-    <form class="datatable__row" data-task-id="0">
+    <form class="datatable__row datatable__row--add" method="POST" action="https://620a2ab0-3fff-4807-9195-11169dbee598-00-qpxdydyv0yrm.worf.replit.dev/v1/tasks" data-task-add-form>
+
       <fieldset class="datatable__row-section datatable__row-section--input-section" data-task-name-section>
         <label class="datatable__input-label">Task name</label>
         <input type="text" name="title" placeholder="Insert a new task name" data-task-name-input required minlength="3">

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var apiRoot = 'http://localhost:8080/v1/tasks';
+  var apiRoot = 'https://620a2ab0-3fff-4807-9195-11169dbee598-00-qpxdydyv0yrm.worf.replit.dev/v1/tasks';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
